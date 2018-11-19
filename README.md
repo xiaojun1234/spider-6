@@ -66,8 +66,8 @@ Wait(browser,10).until(Expect.presence_of_element_located((By.ID,"kw")))
 </pre>
 # 实例
 ## 等待的条件：
-### presence_of_element_located()
-### text_to_be_present_in_element()
+### 1.presence_of_element_located()
+### 2.text_to_be_present_in_element()
 <pre>
 from selenium import webdriver
 from selenium.webdriver.common.by import By
